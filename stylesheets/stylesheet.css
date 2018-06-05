@@ -1,0 +1,190 @@
+html,body,h1,h2,h3,h4,h5,h6 {font-family: Consolas, sans-serif}
+
+body{
+	background: url("../images/background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow-x: hidden;
+}
+
+div.container{
+	width: 100%;
+	display: table;
+	content: "";
+}
+
+div.subContainer{
+	display: table-row;
+}
+
+div.partition{
+	margin: 20px;
+	background-color: #ffffff;
+	opacity: 0.9;
+	float: left;
+	display: table-cell;
+	width:30%;
+	height: 100%;
+	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+div.mainContainer
+{
+	background-color: #ffffff;
+	opacity: 0.9;
+	margin: 20px;
+	float: left;
+	display: table-cell;
+	height: 100%;
+	width: 60%;
+	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+div.leftSkills
+{
+	display: table-cell;
+	width:50%;
+	height: 100%;
+}
+
+div.rightSkills
+{
+	display: table-cell;
+	height: 100%;
+	width: 50%;
+}
+div.user_image
+{
+	position: relative;
+}
+
+div.user_name
+{
+	position:absolute;left:0;bottom:0;
+	margin-left: 20px;
+
+}
+
+hr{
+	position: relative;
+	width: 90%;
+}
+
+div.info
+{
+	margin: 20px;
+}
+
+i.fa {
+	padding: 10px;
+	color: #3fa69c;
+}
+
+
+i.fab {
+	padding: 10px;
+	color: #3fa69c;
+	font-size: 20pt;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	color: #3fa69c;
+}
+
+div.simpleBox
+{
+	margin: 20px;
+	width: 100%;
+	position: relative;
+}
+
+div.progress-container
+{
+	background-color: #d6d6db;
+	width: 30%;
+	position: relative;
+}
+
+.progressbar_green
+{
+	background-color: #3fa69c;
+}
+
+
+.column1 {
+	display: table-cell;
+	width:2%;
+	height: 100%;
+}
+
+.column2
+{
+	display: table-cell;
+	width:50%;
+	height: 100%;
+}
+
+footer
+{
+	width: 100%;
+	display: inline-block;
+	text-align:center;
+	color:#ffffff;
+	background-color:#009688;
+	position: inherit;
+}
+
+
+.fa-facebook-official:hover, .fa-instagram:hover ,.fa-linkedin:hover
+{
+	color: #ffffff;
+	background-color: #009688; 
+}
+
+.fa-facebook-official, .fa-instagram ,.fa-linkedin
+{
+	color: #ffffff;
+	margin: 10px;
+	background-color: #ffffff;
+}
+
+/* Mobile site css */
+@media screen and (max-width: 900px) {
+
+
+div.container{
+	width: 100%;
+	display: inline-block;
+	content: "";
+}
+
+  div.partition{
+	margin: 20px;
+	background-color: #ffffff;
+	opacity: 0.9;
+	display: table-cell;
+	width:95%;
+	align-content: center;
+	height: auto;
+	margin-right: 30px;
+	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+div.mainContainer
+{
+	background-color: #ffffff;
+	opacity: 0.9;
+	margin: 20px;
+	display: table-cell;
+	height: 100%;
+	width: 95%;
+	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+}
